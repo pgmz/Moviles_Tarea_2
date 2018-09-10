@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tarea2_VintageBicycle</string>
+    <string name="activity_main_text_view_vintage_bicycle_title">BICICLETA CLÁSICA</string>
+    <string name="activity_main_text_view_color_title">COLOR</string>
+    <string name="activity_main_button_small">P</string>
+    <string name="activity_main_button_medium">M</string>
+    <string name="activity_main_button_large">G</string>
+    <string name="activity_main_button_extra_large">EG</string>
+    <string name="activity_main_text_view_description_title">DESCRIPCIÓN</string>
+    <string name="activity_main_text_view_description_text">Bastidor de acero ligero personalizado.
+        Sin restaurar en hermosa condición original.
+        Ligeramente usado y bien cuidado.
+        Completa creación de súper registro</string>
+    <string name="activity_main_text_view_measurement_title">MEDICIONES</string>
+    <string name="activity_main_text_view_measurement_text">La paternidad de la bicicleta se le atribuye al barón Karl Drais,
+        inventor alemán nacido en 1785. Su rudimentario artefacto, creado alrededor de 1817, se impulsaba apoyando los pies alternativamente sobre el suelo.
+        En la actualidad hay más de mil millones de bicicletas en el mundo, utilizadas tanto como medio de transporte como vehículo de ocio. </string>
+    <string name="activity_main_button_add_to_cart">AGREGAR AL CARRITO</string>
+    <string name="activity_main_button_added_to_cart">AGREGADO AL CARRITO</string>
+    <string name="activity_main_button_added_to_cart_msg">Agregado al carrito</string>
+    <string name="activity_main_button_add_to_cart_msg">Este elemento ya está en el carrito</string>
+    <string name="activity_main_image_button_like_msg">+1 para la Bicicleta Clásica</string>
+</resources>

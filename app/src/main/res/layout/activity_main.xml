@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main_scroll_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingLeft="@dimen/activity_main_side_padding"
+    android:paddingRight="@dimen/activity_main_side_padding"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bicycle_vintage" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:paddingTop="@dimen/activity_main_top_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_main_text_view_vintage_bicycle"
+                android:textSize="@dimen/activity_main_title_size"
+                android:textColor="@color/colorRadioButtonsGray"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_main_text_view_vintage_bicycle_title" />
+
+            <ImageButton
+                android:onClick="activityMainImageButtonLikeAction"
+                android:src="@drawable/ic_like"
+                android:background="@drawable/activity_main_like_button_background"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/activity_main_side_padding"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:id="@+id/activity_main_text_view_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_main_text_view_vintage_bicycle"
+                android:text="@string/activity_main_text_view_color_title" />
+
+            <RadioGroup
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:paddingBottom="@dimen/activity_main_top_padding"
+                android:id="@+id/activity_main_radio_group_color_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_main_text_view_color"
+                android:checkedButton="@id/activity_main_radio_button_brown"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/activity_main_radio_button_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorRadioButtonsGray" />
+
+                <RadioButton
+                    android:id="@+id/activity_main_radio_button_brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorRadioButtonsBrown" />
+
+                <RadioButton
+                    android:id="@+id/activity_main_radio_button_pink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorRadioButtonsPink" />
+
+                <RadioButton
+                    android:id="@+id/activity_main_radio_button_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorRadioButtonsBlack" />
+
+            </RadioGroup>
+
+            <ToggleButton
+                android:layout_marginRight="@dimen/activity_main_toogle_button_side_padding"
+                android:id="@+id/activity_main_button_size_medium"
+                android:layout_width="@dimen/activity_main_size_button_size"
+                android:layout_height="@dimen/activity_main_size_button_size"
+                android:layout_below="@id/activity_main_radio_group_color_selection"
+                android:textColor="@drawable/activity_main_size_button_text"
+                android:textOn="@string/activity_main_button_medium"
+                android:textOff="@string/activity_main_button_medium"
+                android:background="@drawable/activity_main_size_button_background"/>
+
+            <ToggleButton
+                android:layout_marginLeft="@dimen/activity_main_toogle_button_side_padding"
+                android:layout_marginRight="@dimen/activity_main_toogle_button_side_padding"
+                android:id="@+id/activity_main_button_size_small"
+                android:layout_width="@dimen/activity_main_size_button_size"
+                android:layout_height="@dimen/activity_main_size_button_size"
+                android:layout_below="@id/activity_main_radio_group_color_selection"
+                android:layout_toRightOf="@id/activity_main_button_size_medium"
+                android:textColor="@drawable/activity_main_size_button_text"
+                android:textOn="@string/activity_main_button_small"
+                android:textOff="@string/activity_main_button_small"
+                android:background="@drawable/activity_main_size_button_background"/>
+
+            <ToggleButton
+                android:layout_marginLeft="@dimen/activity_main_toogle_button_side_padding"
+                android:layout_marginRight="@dimen/activity_main_toogle_button_side_padding"
+                android:id="@+id/activity_main_button_size_large"
+                android:layout_width="@dimen/activity_main_size_button_size"
+                android:layout_height="@dimen/activity_main_size_button_size"
+                android:layout_below="@id/activity_main_radio_group_color_selection"
+                android:layout_toRightOf="@id/activity_main_button_size_small"
+                android:textColor="@drawable/activity_main_size_button_text"
+                android:textOn="@string/activity_main_button_large"
+                android:textOff="@string/activity_main_button_large"
+                android:background="@drawable/activity_main_size_button_background"/>
+
+            <ToggleButton
+                android:layout_marginLeft="@dimen/activity_main_toogle_button_side_padding"
+                android:layout_marginRight="@dimen/activity_main_toogle_button_side_padding"
+                android:id="@+id/activity_main_button_size_extra_large"
+                android:layout_width="@dimen/activity_main_size_button_size"
+                android:layout_height="@dimen/activity_main_size_button_size"
+                android:layout_below="@id/activity_main_radio_group_color_selection"
+                android:layout_toRightOf="@id/activity_main_button_size_large"
+                android:textColor="@drawable/activity_main_size_button_text"
+                android:textOn="@string/activity_main_button_extra_large"
+                android:textOff="@string/activity_main_button_extra_large"
+                android:background="@drawable/activity_main_size_button_background"/>
+
+            <TextView
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:id="@+id/activity_main_text_view_description_title"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/activity_main_subtitle_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_main_button_size_medium"
+                android:text="@string/activity_main_text_view_description_title" />
+
+            <TextView
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:id="@+id/activity_main_text_view_description_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_main_text_view_description_title"
+                android:text="@string/activity_main_text_view_description_text" />
+
+            <TextView
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:id="@+id/activity_main_text_view_measurement_title"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/activity_main_subtitle_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_main_text_view_description_text"
+                android:text="@string/activity_main_text_view_measurement_title" />
+
+            <TextView
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:id="@+id/activity_main_text_view_measurement_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_main_text_view_measurement_title"
+                android:text="@string/activity_main_text_view_measurement_text" />
+
+            <Button
+                android:paddingTop="@dimen/activity_main_top_padding"
+                android:layout_marginBottom="@dimen/activity_main_bottom_padding_button"
+                android:id="@+id/activity_main_button_add_to_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_main_text_view_measurement_text"
+                android:text="@string/activity_main_button_add_to_cart" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

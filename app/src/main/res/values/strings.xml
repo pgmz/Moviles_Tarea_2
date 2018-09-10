@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tarea2_VintageBicycle</string>
+    <string name="activity_main_text_view_vintage_bicycle_title">VINTAGE BICYCLE</string>
+    <string name="activity_main_text_view_color_title">COLOR</string>
+    <string name="activity_main_button_small">S</string>
+    <string name="activity_main_button_medium">M</string>
+    <string name="activity_main_button_large">L</string>
+    <string name="activity_main_button_extra_large">XL</string>
+    <string name="activity_main_text_view_description_title">DESCRIPTION</string>
+    <string name="activity_main_text_view_description_text">Custom lightweight steel frame.
+        Unrestored in beautiful original condition.
+        Lightly used and well kept.
+        Full super record build</string>
+    <string name="activity_main_text_view_measurement_title">MEASUREMENT</string>
+    <string name="activity_main_text_view_measurement_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+        Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="activity_main_button_add_to_cart">ADD TO CART</string>
+    <string name="activity_main_button_added_to_cart">ADDED TO CART</string>
+    <string name="activity_main_button_added_to_cart_msg">Added to cart</string>
+    <string name="activity_main_button_add_to_cart_msg">Item already is in Cart</string>
+    <string name="activity_main_image_button_like_msg">+1 to Vintage Bicycle</string>
+</resources>
