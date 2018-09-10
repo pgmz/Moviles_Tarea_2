@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.LENGTH_INDEFINITE)
 
                 //Show the option to undo it
-                .setAction("Undo", new View.OnClickListener() {
+                .setAction(getString(R.string.activity_main_snackbar_undo), new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
 

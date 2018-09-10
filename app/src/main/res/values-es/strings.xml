@@ -20,4 +20,5 @@
     <string name="activity_main_button_added_to_cart_msg">Agregado al carrito</string>
     <string name="activity_main_button_add_to_cart_msg">Este elemento ya está en el carrito</string>
     <string name="activity_main_image_button_like_msg">+1 para la Bicicleta Clásica</string>
+    <string name="activity_main_snackbar_undo">Deshacer</string>
 </resources>
